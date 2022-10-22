@@ -5,6 +5,6 @@ SHELL [ "rm", "-rf", "/app" ]
 
 WORKDIR /app
 
-COPY src .
+COPY . .
 
 ENTRYPOINT [ "python", "main.py" ]
