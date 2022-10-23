@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as mp
+import time
 
 np.seterr(all='raise')
 df = pd.read_csv('./data/winequality-red.csv')
@@ -87,3 +88,5 @@ for i in range(200):
 
 print(f'Test: {computecost(X_test, y_test, theta)}')
 print(f'Accuracy: {accuracy(X_test, y_test, theta)*100:.1f}%')
+
+np.savetxt(f"models/theta-{int(time.time())}.csv", theta)

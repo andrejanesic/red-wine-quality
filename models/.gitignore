@@ -1,0 +1,4 @@
+# Ignore all except a few good models
+*
+!.gitignore
+!theta-844p.csv
