@@ -2,6 +2,9 @@
 
 Practice ML model to determine red wine quality based on Kaggle dataset.
 
+* True positives: 89.7%
+* True negatives: 76.7%
+
 ## Author
 
 [**Andreja Nesic RN31/19**](https://www.linkedin.com/in/andreja-nesic/) | _Comp Sci Undergrad_ <br>
