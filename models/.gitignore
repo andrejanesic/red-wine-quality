@@ -1,4 +1,6 @@
 # Ignore all except a few good models
 *
 !.gitignore
+!theta-90tp77tn.csv # 90% TP match, 77% TN
 !theta-844p.csv
+!theta-1666488034.csv
